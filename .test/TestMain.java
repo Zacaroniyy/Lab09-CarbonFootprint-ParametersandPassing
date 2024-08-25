@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class TestMain {
 
-    private void testUsingReflection(String methodName, double p1, double p2, double result)
+    private void testUsingReflection(String methodName, double p1, double p2, int result)
     {
         Class clazz = null;
         try
